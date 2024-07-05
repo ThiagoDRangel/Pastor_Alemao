@@ -1,7 +1,27 @@
-header {
+nav {
+    background-color: #3E2723;
+    color: #fff;
+}
+
+ul {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px 0;
+    flex-direction: row;
+    font-size: 2rem;
+    padding: 2rem 0;
     border-bottom: 1px solid #e0e0e0;
+}
+
+li {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 10rem;
+    margin-right: 3rem;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
 }

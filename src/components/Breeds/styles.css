@@ -1,0 +1,16 @@
+.container-dogs-breeds {
+    align-items: center;
+    background-color: #F5F5DC;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
