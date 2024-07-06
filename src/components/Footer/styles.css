@@ -4,4 +4,20 @@ footer {
     color: #fff;
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+@media (max-width:1281px) { /* hi-res laptops and desktops */ }
+@media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (max-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (max-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (max-width:480px) {
+    footer {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:320px) {
+    footer {
+        font-size: 0.9rem;
+    }
 }
